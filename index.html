@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | NoiseBenchmark</title>
+    <title>Unity WebGL Player | NoiseAnalyserBeta</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
@@ -20,7 +20,7 @@
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">NoiseBenchmark</div>
+        <div id="unity-build-title">NoiseAnalyserBeta</div>
       </div>
     </div>
     <script>
@@ -56,14 +56,14 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/TerrainNoise.loader.js";
+      var loaderUrl = buildUrl + "/NoiseAnalyserWeb.loader.js";
       var config = {
-        dataUrl: buildUrl + "/TerrainNoise.data",
-        frameworkUrl: buildUrl + "/TerrainNoise.framework.js",
-        codeUrl: buildUrl + "/TerrainNoise.wasm",
+        dataUrl: buildUrl + "/NoiseAnalyserWeb.data",
+        frameworkUrl: buildUrl + "/NoiseAnalyserWeb.framework.js",
+        codeUrl: buildUrl + "/NoiseAnalyserWeb.wasm",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "DefaultCompany",
-        productName: "NoiseBenchmark",
+        companyName: "Saceptik",
+        productName: "NoiseAnalyserBeta",
         productVersion: "0.1",
         showBanner: unityShowBanner,
       };
